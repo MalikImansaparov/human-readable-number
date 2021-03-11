@@ -10,9 +10,9 @@ module.exports = function toReadable (n) {
         tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 
         /* Маштабные множества ввиде слов */
-        scales = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion', 'decillion', 'undecillion', 'duodecillion', 'tredecillion', 'quatttuor-decillion', 'quindecillion', 'sexdecillion', 'septen-decillion', 'octodecillion', 'novemdecillion', 'vigintillion', 'centillion'];
+        scales = ['', 'thousand', 'million', 'billion', 'trillion'];
 
-        /* Разделяем аргумент пользователя на З блоки  справа налево */
+        /* Разделяем аргументы пользователя на З блоки  справа налево */
         start = string.length;
         chunks = [];
         while (start > 0) {
